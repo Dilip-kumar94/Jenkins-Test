@@ -13,11 +13,11 @@ public class Mortgage {
 		double rateOfInterest=0;
 		Scanner sc=new Scanner(System.in);
 		System.out.println("Enter the Loan Amount: ");
-		loanAmount=sc.nextDouble();
+		loanAmount=10000;
 		System.out.println("Enter the Interest: ");
-		interest=sc.nextDouble();
+		interest=12;
 		System.out.println("Enter the No.of.Years: ");
-		years=sc.nextInt();
+		years=4;
 		rateOfInterest=interest/12/100;
 		double numerator= loanAmount* rateOfInterest * Math.pow((1+rateOfInterest), (years*12));
 		double denominator=Math.pow((1+rateOfInterest), (years*12))-1;
