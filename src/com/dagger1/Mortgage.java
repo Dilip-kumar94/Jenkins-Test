@@ -13,7 +13,7 @@ public class Mortgage {
 		double rateOfInterest=0;
 		Scanner sc=new Scanner(System.in);
 		System.out.println("Enter the Loan Amount: ");
-		loanAmount=20000;
+		loanAmount=30000;
 		System.out.println("Enter the Interest: ");
 		interest=12;
 		System.out.println("Enter the No.of.Years: ");
