@@ -15,7 +15,7 @@ public class Mortgage {
 		System.out.println("Enter the Loan Amount: ");
 		loanAmount=30000;
 		System.out.println("Enter the Interest: ");
-		interest=12;
+		interest=18;
 		System.out.println("Enter the No.of.Years: ");
 		years=4;
 		rateOfInterest=interest/12/100;
